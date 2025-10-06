@@ -4,11 +4,11 @@ def load_code_contests():
     """Load the DeepMind code_contests dataset from Hugging Face."""
     try:
         dataset = load_dataset("deepmind/code_contests")
-        return dataset["train"], dataset["valid"], dataset["test"]
+        return dataset["train"], dataset["test"]
     except Exception as e:
         print(f"Failed to load dataset: {e}")
         # Return empty structures to prevent crashing the app on startup
-        return [], [], []
+        return [], []
 
 def preprocess_sample(sample, language="Python"):
     """
