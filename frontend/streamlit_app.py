@@ -10,7 +10,7 @@ st.set_page_config(
 
 # --- API Configuration ---
 # Define the base URL of your FastAPI backend
-BACKEND_BASE_URL = "http://127.0.0.1:8000"
+BACKEND_BASE_URL = "https://automated-code-generation-and-explanation.onrender.com"
 GENERATE_URL = f"{BACKEND_BASE_URL}/generate_code"
 OPTIMIZE_URL = f"{BACKEND_BASE_URL}/optimize_code"
 
