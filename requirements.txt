@@ -2,3 +2,5 @@ streamlit
 groq
 datasets
 python-dotenv
+fastapi
+uvicorn

@@ -1,7 +1,7 @@
-import config
-from backend.llm_handler import LLMCodeHandler
-from backend.optimiser import CodeOptimizer
-from backend.dataset_loader import load_code_contests
+from . import config 
+from .llm_handler import LLMCodeHandler
+from .optimiser import CodeOptimizer
+from .dataset_loader import load_code_contests
 
 def initialize_system():
     """Initialize all core components."""
