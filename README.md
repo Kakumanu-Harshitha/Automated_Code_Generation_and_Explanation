@@ -27,8 +27,5 @@ This project is built using the following technologies:
 **Language:** Python
 # Compiler Type:
 I used a compiler TPU provided in google colab while running this project.
-
-# Results
-This model acheived training accuracy of 89% and validation accuracy of 93%.
 # Owner
 [Harshitha-Kakumanu](https://github.com/Kakumanu-Harshitha)
